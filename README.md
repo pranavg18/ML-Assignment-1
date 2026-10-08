@@ -24,16 +24,18 @@ The implementation is CPU-only and does not require a GPU.
 
 ```text
 ML-Assignment-1/
-├── README.md
-├── requirements.txt
-├── config.json          # all search ranges, penalties, seeds and solver settings
-├── polynomial.py        # monomial expansion, data loading, JSON inference
-├── train.py             # nested-CV search, final fit, predictions, summaries
-├── run_all.py           # trains var1 and var2 concurrently
-├── predict.py           # regenerates predictions from a saved model.json
 ├── results/
 │   ├── var1/model.json  # final fitted var1 model
 │   └── var2/model.json  # final fitted var2 model
+├── tests/
+│   ├── test_workflow.py
+├── README.md
+├── config.json          # all search ranges, penalties, seeds and solver settings
+├── polynomial.py        # monomial expansion, data loading, JSON inference
+├── predict.py           # regenerates predictions from a saved model.json
+├── requirements.txt
+├── run_all.py           # trains var1 and var2 concurrently
+├── train.py             # nested-CV search, final fit, predictions, summaries
 └── data/                # NOT included: place the four BT2024086 CSVs here
 ```
 
