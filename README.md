@@ -28,7 +28,7 @@ ML-Assignment-1/
 │   ├── var1/model.json  # final fitted var1 model
 │   └── var2/model.json  # final fitted var2 model
 ├── tests/
-│   ├── test_workflow.py
+│   └── test_workflow.py
 ├── README.md
 ├── config.json          # all search ranges, penalties, seeds and solver settings
 ├── polynomial.py        # monomial expansion, data loading, JSON inference
